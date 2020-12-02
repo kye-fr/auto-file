@@ -15,6 +15,12 @@ root = '/Users/you/yourDirectory/'
 This will be the default parent directory of the resulting file structure. To change this default, update `destination = root`, where `root` is replaced with a new path:
 
 ```python
+# Default destination
+destination = root
+```
+
+```python
+# Updated destination
 destination = '/Users/you/yourNewDirectory/'
 ```
 
